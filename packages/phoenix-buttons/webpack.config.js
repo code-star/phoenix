@@ -8,6 +8,7 @@ const PATHS = {
 };
 
 const commonConfig = merge([
+  parts.entry(),
   parts.output(),
   parts.plugins(),
   parts.loadJavaScript({ include: PATHS.app }),

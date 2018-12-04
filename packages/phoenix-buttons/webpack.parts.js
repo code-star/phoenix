@@ -1,5 +1,4 @@
 const webpack = require("webpack");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const GitRevisionPlugin = require("git-revision-webpack-plugin");
 const UglifyWebpackPlugin = require("uglifyjs-webpack-plugin");
@@ -26,18 +25,21 @@ exports.devServer = ({ host, port } = {}) => ({
   },
 });
 
+exports.entry = () => ({
+  entry: './lib/index.js',
+});
+
 exports.output = () => ({
   output: {
+    libraryTarget: 'umd',
+    library: 'PhoenixButtons',
     path: path.join(__dirname, './build'),
-    filename: 'streams-client.js',
+    filename: 'phoenix-buttons.js',
   },
 });
 
 exports.plugins = () => ({
   plugins: [
-    new HtmlWebpackPlugin({
-      title: "Codestar Streams Client",
-    }),
     new webpack.HotModuleReplacementPlugin(),
   ],
 });
