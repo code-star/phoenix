@@ -4,6 +4,7 @@ import {
   containedDefaultMaterialButton,
   containedPrimaryMaterialButton,
   containedSecondaryMaterialButton,
+  containedDisabledMaterialButton,
 } from './MaterialButton.render'
 
 const containedDefaultText = 'Contained Default'
@@ -24,7 +25,14 @@ const containedSecondaryParamters = {
   notes: `Must render ${containedSecondaryText}`,
 }
 
+const containedDisabledText = 'Contained Disabled'
+const containedDisabledParamters = {
+  info: containedDisabledText,
+  notes: `Must render ${containedDisabledText}`,
+}
+
 storiesOf('Buttons/MaterialButtons', module)
   .add(containedDefaultText,() => containedDefaultMaterialButton, containedDefaultParamters)
   .add(containedPrimaryText,() => containedPrimaryMaterialButton, containedPrimaryParamters)
   .add(containedSecondaryText,() => containedSecondaryMaterialButton, containedSecondaryParamters)
+  .add(containedDisabledText,() => containedDisabledMaterialButton, containedDisabledParamters)

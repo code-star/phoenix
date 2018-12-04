@@ -31,3 +31,14 @@ export const containedSecondaryMaterialButton = (
     Secondary
   </MaterialButton>
 )
+
+export const containedDisabledMaterialButton = (
+  <MaterialButton
+    variant="contained"
+    color="secondary"
+    onClick={handleOnClick}
+    disabled
+  >
+    Disabled
+  </MaterialButton>
+)

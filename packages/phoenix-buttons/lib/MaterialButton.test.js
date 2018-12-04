@@ -3,6 +3,7 @@ import {
   containedDefaultMaterialButton,
   containedPrimaryMaterialButton,
   containedSecondaryMaterialButton,
+  containedDisabledMaterialButton,
 } from './MaterialButton.render'
 
 describe('<MaterialButton />', () => {
@@ -17,6 +18,10 @@ describe('<MaterialButton />', () => {
 
     test('must match containedSecondaryMaterialButton', () => {
       expect(renderer.create(containedSecondaryMaterialButton).toJSON()).toMatchSnapshot()
+    })
+
+    test('must match containedDisabledMaterialButton', () => {
+      expect(renderer.create(containedDisabledMaterialButton).toJSON()).toMatchSnapshot()
     })
   })
 })

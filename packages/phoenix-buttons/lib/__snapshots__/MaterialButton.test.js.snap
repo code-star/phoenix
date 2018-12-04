@@ -29,6 +29,35 @@ exports[`<MaterialButton /> Snaphot must match containedDefaultMaterialButton 1`
 </button>
 `;
 
+exports[`<MaterialButton /> Snaphot must match containedDisabledMaterialButton 1`] = `
+<button
+  className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-contained-12 MuiButton-containedSecondary-14 MuiButton-raised-15 MuiButton-raisedSecondary-17"
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex="0"
+  type="button"
+>
+  <span
+    className="MuiButton-label-2"
+  >
+    Disabled
+  </span>
+  <span
+    className="MuiTouchRipple-root-30"
+  />
+</button>
+`;
+
 exports[`<MaterialButton /> Snaphot must match containedPrimaryMaterialButton 1`] = `
 <button
   className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-contained-12 MuiButton-containedPrimary-13 MuiButton-raised-15 MuiButton-raisedPrimary-16"
