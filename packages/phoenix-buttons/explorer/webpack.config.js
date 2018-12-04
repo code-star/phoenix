@@ -1,5 +1,3 @@
-/* eslint global-require : 0 */
-
 const autoprefixer = require('autoprefixer')
 const webpack = require('webpack');
 const path = require('path');
@@ -9,18 +7,14 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(js)$/,
+        exclude: /node_modules/,
+        use: ['babel-loader'],
+      },
+      {
         test: /\.scss$/,
         use: [
           'style-loader',
-          {
-            loader: 'css-loader',
-            options: {
-              // modules: true,
-              sourceMap: true,
-              localIdentName: '[local]__[hash:base64:5]',
-              minimize: true,
-            },
-          },
           {
             loader: 'postcss-loader',
             options: {
@@ -36,49 +30,6 @@ module.exports = {
           'sass-loader',
         ],
       },
-      {
-        test: /\.css$/,
-        use: [
-          require.resolve('style-loader'),
-          {
-            loader: require.resolve('css-loader'),
-            options: {
-              importLoaders: 1,
-            },
-          },
-          {
-            loader: require.resolve('postcss-loader'),
-            options: {
-              ident: 'postcss',
-              plugins: () => [
-                require('postcss-flexbugs-fixes'),
-                autoprefixer({
-                  browsers: [
-                    '>1%',
-                    'last 4 versions',
-                    'Firefox ESR',
-                    'not ie < 9',
-                  ],
-                  flexbox: 'no-2009',
-                }),
-              ],
-            },
-          },
-        ],
-      },
-      {
-        test: /\.(ttf|eot|woff(2)?)$/,
-        use: [
-          {
-            loader: 'file-loader',
-          },
-        ],
-      },
-      {
-        test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
-        use: ['babel-loader'],
-      },
     ],
   },
   resolve: {
@@ -93,7 +44,7 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
   ],
   devServer: {
-    port: 7001,
+    port: 7007,
     contentBase: './dist',
     hot: true,
   },

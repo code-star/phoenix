@@ -1,9 +1,8 @@
 /* eslint no-console : 0 */
-/* eslint import/no-unresolved : 0 */
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { MaterialButton } from '../../build/phoenix-buttons';
+import MaterialButton from '../../build/phoenix-buttons';
 // import { MaterialButton } from 'phoenix-buttons';
 
 import 'primer-utilities/index.scss'
