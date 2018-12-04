@@ -2,8 +2,9 @@
 
 exports[`<MaterialButton /> Snaphot must match containedDefaultMaterialButton 1`] = `
 <button
-  className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-contained-12 MuiButton-raised-15 MuiButton-colorInherit-22"
+  className="MuiButtonBase-root-29 MuiButton-root-3 MuiButton-contained-14 MuiButton-raised-17 MuiButton-colorInherit-24 MaterialButton-button-1"
   disabled={false}
+  href=""
   onBlur={[Function]}
   onClick={[Function]}
   onFocus={[Function]}
@@ -19,20 +20,21 @@ exports[`<MaterialButton /> Snaphot must match containedDefaultMaterialButton 1`
   type="button"
 >
   <span
-    className="MuiButton-label-2"
+    className="MuiButton-label-4"
   >
     Default
   </span>
   <span
-    className="MuiTouchRipple-root-30"
+    className="MuiTouchRipple-root-32"
   />
 </button>
 `;
 
 exports[`<MaterialButton /> Snaphot must match containedDisabledMaterialButton 1`] = `
 <button
-  className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-contained-12 MuiButton-containedSecondary-14 MuiButton-raised-15 MuiButton-raisedSecondary-17"
-  disabled={false}
+  className="MuiButtonBase-root-29 MuiButtonBase-disabled-30 MuiButton-root-3 MuiButton-contained-14 MuiButton-raised-17 MuiButton-disabled-23 MuiButton-colorInherit-24 MaterialButton-button-1"
+  disabled={true}
+  href=""
   onBlur={[Function]}
   onClick={[Function]}
   onFocus={[Function]}
@@ -44,24 +46,51 @@ exports[`<MaterialButton /> Snaphot must match containedDisabledMaterialButton 1
   onTouchEnd={[Function]}
   onTouchMove={[Function]}
   onTouchStart={[Function]}
-  tabIndex="0"
+  tabIndex="-1"
   type="button"
 >
   <span
-    className="MuiButton-label-2"
+    className="MuiButton-label-4"
   >
     Disabled
   </span>
-  <span
-    className="MuiTouchRipple-root-30"
-  />
 </button>
+`;
+
+exports[`<MaterialButton /> Snaphot must match containedLinkMaterialButton 1`] = `
+<a
+  className="MuiButtonBase-root-29 MuiButton-root-3 MuiButton-contained-14 MuiButton-raised-17 MuiButton-colorInherit-24 MaterialButton-button-1"
+  href="https://github.com/code-star/phoenix"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  role="button"
+  tabIndex="0"
+>
+  <span
+    className="MuiButton-label-4"
+  >
+    Link
+  </span>
+  <span
+    className="MuiTouchRipple-root-32"
+  />
+</a>
 `;
 
 exports[`<MaterialButton /> Snaphot must match containedPrimaryMaterialButton 1`] = `
 <button
-  className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-contained-12 MuiButton-containedPrimary-13 MuiButton-raised-15 MuiButton-raisedPrimary-16"
+  className="MuiButtonBase-root-29 MuiButton-root-3 MuiButton-contained-14 MuiButton-containedPrimary-15 MuiButton-raised-17 MuiButton-raisedPrimary-18 MaterialButton-button-1"
   disabled={false}
+  href=""
   onBlur={[Function]}
   onClick={[Function]}
   onFocus={[Function]}
@@ -77,20 +106,21 @@ exports[`<MaterialButton /> Snaphot must match containedPrimaryMaterialButton 1`
   type="button"
 >
   <span
-    className="MuiButton-label-2"
+    className="MuiButton-label-4"
   >
     Primary
   </span>
   <span
-    className="MuiTouchRipple-root-30"
+    className="MuiTouchRipple-root-32"
   />
 </button>
 `;
 
 exports[`<MaterialButton /> Snaphot must match containedSecondaryMaterialButton 1`] = `
 <button
-  className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-contained-12 MuiButton-containedSecondary-14 MuiButton-raised-15 MuiButton-raisedSecondary-17"
+  className="MuiButtonBase-root-29 MuiButton-root-3 MuiButton-contained-14 MuiButton-containedSecondary-16 MuiButton-raised-17 MuiButton-raisedSecondary-19 MaterialButton-button-1"
   disabled={false}
+  href=""
   onBlur={[Function]}
   onClick={[Function]}
   onFocus={[Function]}
@@ -106,12 +136,52 @@ exports[`<MaterialButton /> Snaphot must match containedSecondaryMaterialButton 
   type="button"
 >
   <span
-    className="MuiButton-label-2"
+    className="MuiButton-label-4"
   >
     Secondary
   </span>
   <span
-    className="MuiTouchRipple-root-30"
+    className="MuiTouchRipple-root-32"
   />
 </button>
+`;
+
+exports[`<MaterialButton /> Snaphot must match containedUploadMaterialButton 1`] = `
+Array [
+  <input
+    accept="image/*"
+    className="MaterialButton-input-2"
+    id="contained-button-file"
+    multiple={true}
+    type="file"
+  />,
+  <label
+    htmlFor="contained-button-file"
+  >
+    <span
+      className="MuiButtonBase-root-29 MuiButton-root-3 MuiButton-contained-14 MuiButton-raised-17 MaterialButton-button-1"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      <span
+        className="MuiButton-label-4"
+      >
+        Upload
+      </span>
+      <span
+        className="MuiTouchRipple-root-32"
+      />
+    </span>
+  </label>,
+]
 `;

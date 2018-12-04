@@ -5,6 +5,8 @@ import {
   containedPrimaryMaterialButton,
   containedSecondaryMaterialButton,
   containedDisabledMaterialButton,
+  containedLinkMaterialButton,
+  containedUploadMaterialButton,
 } from './MaterialButton.render'
 
 const containedDefaultText = 'Contained Default'
@@ -31,8 +33,22 @@ const containedDisabledParamters = {
   notes: `Must render ${containedDisabledText}`,
 }
 
+const containedLinkText = 'Contained Link'
+const containedLinkParamters = {
+  info: containedLinkText,
+  notes: `Must render ${containedLinkText}`,
+}
+
+const containedUploadText = 'Contained Upload'
+const containedUploadParamters = {
+  info: containedUploadText,
+  notes: `Must render ${containedUploadText}`,
+}
+
 storiesOf('Buttons/MaterialButtons', module)
   .add(containedDefaultText,() => containedDefaultMaterialButton, containedDefaultParamters)
   .add(containedPrimaryText,() => containedPrimaryMaterialButton, containedPrimaryParamters)
   .add(containedSecondaryText,() => containedSecondaryMaterialButton, containedSecondaryParamters)
   .add(containedDisabledText,() => containedDisabledMaterialButton, containedDisabledParamters)
+  .add(containedLinkText,() => containedLinkMaterialButton, containedLinkParamters)
+  .add(containedUploadText,() => containedUploadMaterialButton, containedUploadParamters)
