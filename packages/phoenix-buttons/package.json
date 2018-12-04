@@ -1,7 +1,7 @@
 {
   "name": "phoenix-buttons",
   "license": "MIT",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Phoenix Buttons React UI Components",
   "main": "build/phoenix-buttons.js",
   "repository": "https://github.com/code-star/phoenix/tree/master/packages/phoenix-buttons",
