@@ -1,24 +1,24 @@
-const path = require("path");
-const merge = require("webpack-merge");
-const parts = require("./webpack.parts");
+const path = require("path")
+const merge = require("webpack-merge")
+const parts = require("./webpack.parts")
 
 const PATHS = {
   app: path.join(__dirname, "lib"),
   build: path.join(__dirname, "build"),
-};
+}
 
 const commonConfig = merge([
   parts.entry(),
   parts.output(),
   parts.plugins(),
   parts.loadJavaScript({ include: PATHS.app }),
-]);
+])
 
 const productionConfig = merge([
   parts.clean(PATHS.build),
   parts.attachRevision(),
   parts.minifyJavaScript(),
-]);
+])
 
 const developmentConfig = merge([
   parts.devServer({
@@ -26,12 +26,12 @@ const developmentConfig = merge([
     port: process.env.PORT,
   }),
 
-]);
+])
 
 module.exports = mode => {
   if (mode === "production") {
-    return merge(commonConfig, productionConfig, { mode });
+    return merge(commonConfig, productionConfig, { mode })
   }
 
-  return merge(commonConfig, developmentConfig, { mode });
-};
+  return merge(commonConfig, developmentConfig, { mode })
+}

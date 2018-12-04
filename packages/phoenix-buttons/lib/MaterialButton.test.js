@@ -3,6 +3,9 @@ import {
   containedDefaultMaterialButton,
   containedPrimaryMaterialButton,
   containedSecondaryMaterialButton,
+  containedDisabledMaterialButton,
+  containedLinkMaterialButton,
+  containedUploadMaterialButton,
 } from './MaterialButton.render'
 
 describe('<MaterialButton />', () => {
@@ -17,6 +20,18 @@ describe('<MaterialButton />', () => {
 
     test('must match containedSecondaryMaterialButton', () => {
       expect(renderer.create(containedSecondaryMaterialButton).toJSON()).toMatchSnapshot()
+    })
+
+    test('must match containedDisabledMaterialButton', () => {
+      expect(renderer.create(containedDisabledMaterialButton).toJSON()).toMatchSnapshot()
+    })
+
+    test('must match containedLinkMaterialButton', () => {
+      expect(renderer.create(containedLinkMaterialButton).toJSON()).toMatchSnapshot()
+    })
+
+    test('must match containedUploadMaterialButton', () => {
+      expect(renderer.create(containedUploadMaterialButton).toJSON()).toMatchSnapshot()
     })
   })
 })

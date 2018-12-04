@@ -5,11 +5,11 @@ const handleOnClick = () => {}
 
 export const containedDefaultMaterialButton = (
   <MaterialButton
-  variant="contained"
-  onClick={handleOnClick}
->
-  Default
-</MaterialButton>
+    variant="contained"
+    onClick={handleOnClick}
+  >
+    Default
+  </MaterialButton>
 )
 
 export const containedPrimaryMaterialButton = (
@@ -29,5 +29,35 @@ export const containedSecondaryMaterialButton = (
     onClick={handleOnClick}
   >
     Secondary
+  </MaterialButton>
+)
+
+export const containedDisabledMaterialButton = (
+  <MaterialButton
+    variant="contained"
+    onClick={handleOnClick}
+    disabled
+  >
+    Disabled
+  </MaterialButton>
+)
+
+export const containedLinkMaterialButton = (
+  <MaterialButton
+    variant="contained"
+    href="https://github.com/code-star/phoenix"
+    onClick={handleOnClick}
+  >
+    Link
+  </MaterialButton>
+)
+
+export const containedUploadMaterialButton = (
+  <MaterialButton
+    variant="contained"
+    upload
+    onClick={handleOnClick}
+  >
+    Upload
   </MaterialButton>
 )

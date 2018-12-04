@@ -1,8 +1,8 @@
 /* eslint no-console : 0 */
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import MaterialButton from '../../build/phoenix-buttons';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import MaterialButton from '../../build/phoenix-buttons'
 // import { MaterialButton } from 'phoenix-buttons';
 
 import 'primer-utilities/index.scss'
@@ -46,8 +46,41 @@ ReactDOM.render(
         Secondary
       </MaterialButton>
     </div>
+
+    <h2 className="pl-2"><span role="img" aria-label="image">🗿</span> Contained Disabled MaterialButton</h2>
+    <div className="pl-6">
+      <MaterialButton
+        variant="contained"
+        onClick={handleOnClick}
+        disabled
+      >
+        Disabled
+      </MaterialButton>
+    </div>
+
+    <h2 className="pl-2"><span role="img" aria-label="image">🗿</span> Contained Link MaterialButton</h2>
+    <div className="pl-6">
+      <MaterialButton
+        variant="contained"
+        href="https://github.com/code-star/phoenix"
+        onClick={handleOnClick}
+      >
+        Link
+      </MaterialButton>
+    </div>
+
+    <h2 className="pl-2"><span role="img" aria-label="image">🗿</span> Contained Upload MaterialButton</h2>
+    <div className="pl-6">
+      <MaterialButton
+        variant="contained"
+        upload
+        onClick={handleOnClick}
+      >
+        Upload
+      </MaterialButton>
+    </div>
   </div>,
   document.getElementById('app'),
-);
+)
 
-module.hot.accept();
+module.hot.accept()
