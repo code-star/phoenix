@@ -4,7 +4,7 @@
     "<rootDir>"
   ],
   "transform": {
-    "^.+\\.(js|jsx|ts|tsx)$": "babel-jest"
+    "^.+\\.(js)$": "babel-jest"
   },
   "collectCoverageFrom": [
     "packages/**/*.test.js",
@@ -15,5 +15,5 @@
   "moduleNameMapper": {
     "\\.(css|less|scss)$": "identity-obj-proxy"
   },
-  "moduleFileExtensions": ["js", "jsx", "json"]
+  "moduleFileExtensions": ["js", "json"]
 }
