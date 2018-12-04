@@ -1,8 +1,8 @@
-const webpack = require("webpack");
-const CleanWebpackPlugin = require("clean-webpack-plugin");
-const GitRevisionPlugin = require("git-revision-webpack-plugin");
-const UglifyWebpackPlugin = require("uglifyjs-webpack-plugin");
-const path = require("path");
+const webpack = require("webpack")
+const CleanWebpackPlugin = require("clean-webpack-plugin")
+const GitRevisionPlugin = require("git-revision-webpack-plugin")
+const UglifyWebpackPlugin = require("uglifyjs-webpack-plugin")
+const path = require("path")
 
 exports.devServer = ({ host, port } = {}) => ({
   devServer: {
@@ -23,11 +23,11 @@ exports.devServer = ({ host, port } = {}) => ({
     contentBase: './build',
     hot: true,
   },
-});
+})
 
 exports.entry = () => ({
   entry: './lib/index.js',
-});
+})
 
 exports.output = () => ({
   output: {
@@ -36,13 +36,13 @@ exports.output = () => ({
     path: path.join(__dirname, './build'),
     filename: 'phoenix-buttons.js',
   },
-});
+})
 
 exports.plugins = () => ({
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
   ],
-});
+})
 
 exports.loadJavaScript = ({ include, exclude } = {}) => ({
   module: {
@@ -56,11 +56,11 @@ exports.loadJavaScript = ({ include, exclude } = {}) => ({
       },
     ],
   },
-});
+})
 
 exports.clean = pluginPath => ({
   plugins: [new CleanWebpackPlugin([pluginPath])],
-});
+})
 
 exports.attachRevision = () => ({
   plugins: [
@@ -68,10 +68,10 @@ exports.attachRevision = () => ({
       banner: new GitRevisionPlugin().version(),
     }),
   ],
-});
+})
 
 exports.minifyJavaScript = () => ({
   optimization: {
     minimizer: [new UglifyWebpackPlugin({ sourceMap: true })],
   },
-});
+})
