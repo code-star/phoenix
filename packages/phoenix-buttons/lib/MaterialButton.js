@@ -1,6 +1,6 @@
-import * as React from 'react';
-import Button from '@material-ui/core/Button';
-import { string, node, oneOf, func } from 'prop-types';
+import * as React from 'react'
+import Button from '@material-ui/core/Button'
+import { string, node, oneOf, func } from 'prop-types'
 
 const MaterialButton = ({ variant, color, className, children, onClick }) =>
   <Button
@@ -10,14 +10,14 @@ const MaterialButton = ({ variant, color, className, children, onClick }) =>
     onClick={onClick}
   >
     {children}
-  </Button>;
+  </Button>
 
 MaterialButton.defaultProps = {
   variant: 'text',
   color: 'inherit',
   className: '',
   children: null,
-};
+}
 
 MaterialButton.propTypes = {
   variant: oneOf(['text', 'flat', 'outlined', 'contained', 'raised', 'fab', 'extendedFab']),
@@ -25,6 +25,6 @@ MaterialButton.propTypes = {
   className: string,
   children: node,
   onClick: func.isRequired,
-};
+}
 
-export default MaterialButton;
+export default MaterialButton
