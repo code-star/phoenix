@@ -2,8 +2,8 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import MaterialButton from '../../build/phoenix-buttons'
-// import { MaterialButton } from 'phoenix-buttons';
+// import MaterialButton from '../../build/phoenix-buttons'
+import MaterialButton from 'phoenix-buttons'
 
 import 'primer-utilities/index.scss'
 
