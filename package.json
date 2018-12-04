@@ -1,0 +1,33 @@
+{
+  "name": "codestar-phoenix",
+  "license": "MIT",
+  "scripts": {
+    "build": "lerna run build --stream",
+    "remove-packages": "lerna run remove-packages --stream",
+    "install-packages": "lerna run install-packages --stream",
+    "start-storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook -c .storybook -o .storybook-static",
+    "deploy-storybook": "gh-pages -d .storybook-static",
+    "release": "lerna publish",
+    "test": "lerna run test --stream",
+    "lint": "lerna run --parallel lint",
+    "lint-fix": "lerna run --parallel lint-fix",
+    "ci": "lerna run ci --stream"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-info": "^4.0.11",
+    "@storybook/addon-notes": "^4.0.11",
+    "@storybook/addon-options": "^4.0.11",
+    "@storybook/addons": "^4.0.11",
+    "@storybook/react": "^4.0.11",
+    "babel-loader": "^8.0.4",
+    "gh-pages": "^2.0.1",
+    "identity-obj-proxy": "^3.0.0",
+    "lerna": "^3.5.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
