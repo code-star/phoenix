@@ -1,14 +1,14 @@
-import { storiesOf } from '@storybook/react'
+import { storiesOf } from '@storybook/react';
 
 import {
   containedDefaultMaterialButton,
   containedPrimaryMaterialButton,
   containedSecondaryMaterialButton,
-} from './MaterialButton.render'
+} from './MaterialButton.render';
 
-const containedDefaultText = 'Contained Default'
-const containedPrimaryText = 'Contained Primary'
-const containedSecondaryText = 'Contained Secondary'
+const containedDefaultText = 'Contained Default';
+const containedPrimaryText = 'Contained Primary';
+const containedSecondaryText = 'Contained Secondary';
 
 storiesOf('Buttons/MaterialButtons', module)
   .add(containedDefaultText,() => containedDefaultMaterialButton,
@@ -25,4 +25,4 @@ storiesOf('Buttons/MaterialButtons', module)
   {
     info: containedSecondaryText,
     notes: `Must render ${containedSecondaryText}`,
-  })
+  });

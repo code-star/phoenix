@@ -1,7 +1,7 @@
-import * as React from 'react'
-import MaterialButton from './MaterialButton'
+import * as React from 'react';
+import MaterialButton from './MaterialButton';
 
-const handleOnClick = () => {}
+const handleOnClick = () => {};
 
 export const containedDefaultMaterialButton = (
   <MaterialButton
@@ -10,7 +10,7 @@ export const containedDefaultMaterialButton = (
 >
   Default
 </MaterialButton>
-)
+);
 
 export const containedPrimaryMaterialButton = (
   <MaterialButton
@@ -20,7 +20,7 @@ export const containedPrimaryMaterialButton = (
   >
     Primary
   </MaterialButton>
-)
+);
 
 export const containedSecondaryMaterialButton = (
   <MaterialButton
@@ -30,4 +30,4 @@ export const containedSecondaryMaterialButton = (
   >
     Secondary
   </MaterialButton>
-)
+);

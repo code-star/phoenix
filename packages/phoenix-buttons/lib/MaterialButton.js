@@ -1,16 +1,16 @@
-import * as React from 'react'
-import Button from '@material-ui/core/Button'
+import * as React from 'react';
+import Button from '@material-ui/core/Button';
 import { string, node, oneOf, func } from 'prop-types';
 
 const MaterialButton = ({ variant, color, className, children, onClick }) =>
   <Button
-    variant={variant}
+    variant={ variant }
     color={color}
     className={className}
     onClick={onClick}
   >
     {children}
-  </Button>
+  </Button>;
 
 MaterialButton.defaultProps = {
   variant: 'text',
@@ -27,4 +27,4 @@ MaterialButton.propTypes = {
   onClick: func.isRequired,
 };
 
-export default MaterialButton
+export default MaterialButton;
