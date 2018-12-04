@@ -44,34 +44,67 @@ Contained buttons are high-emphasis, distinguished by their use of elevation and
 
 #### Contained Default MaterialButton
 ```html
-      <MaterialButton
-        variant="contained"
-        onClick={handleOnClick}
-      >
-        Default
-      </MaterialButton>
+  <MaterialButton
+    variant="contained"
+    onClick={handleOnClick}
+  >
+    Default
+  </MaterialButton>
 ```
 
 #### Contained Primary MaterialButton
 ```html
-      <MaterialButton
-        variant="contained"
-        color="primary"
-        onClick={handleOnClick}
-      >
-        Primary
-      </MaterialButton>
+  <MaterialButton
+    variant="contained"
+    color="primary"
+    onClick={handleOnClick}
+  >
+    Primary
+  </MaterialButton>
 ```
 
 #### Contained Secondary MaterialButton
 ```html
-      <MaterialButton
-        variant="contained"
-        color="secondary"
-        onClick={handleOnClick}
-      >
-        Secondary
-      </MaterialButton>
+  <MaterialButton
+    variant="contained"
+    color="secondary"
+    onClick={handleOnClick}
+  >
+    Secondary
+  </MaterialButton>
+```
+
+#### Contained Disabled MaterialButton
+```html
+  <MaterialButton
+    variant="contained"
+    onClick={handleOnClick}
+    disabled
+  >
+    Disabled
+  </MaterialButton>
+```
+
+#### Contained Link MaterialButton
+```html
+  <MaterialButton
+    variant="contained"
+    href="https://github.com/code-star/phoenix"
+    onClick={handleOnClick}
+  >
+    Link
+  </MaterialButton>
+```
+
+#### Contained Upload MaterialButton
+```html
+  <MaterialButton
+    variant="contained"
+    upload
+    onClick={handleOnClick}
+  >
+    Upload
+  </MaterialButton>
 ```
 
 ## License

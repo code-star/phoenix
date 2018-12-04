@@ -54,7 +54,7 @@
 
 * **📜 Bundle**: [Webpack](https://webpack.js.org/)
 
-* **📜 Package Manager**: [NPM](https://www.npmjs.com/)
+* **📜 Package Manager**: [NPM](https://www.npmjs.com/) [🐝](https://www.npmjs.com/package/phoenix-buttons)
 
 * **📜 UI Development Environment**: [Storybook](https://storybook.js.org/)
 
