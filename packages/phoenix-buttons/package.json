@@ -22,13 +22,13 @@
     "component-library"
   ],
   "scripts": {
-    "build": "webpack --env production",
     "uninstall-packages": "rm -rf node_modules package-lock.json",
     "install-packages": "npm i",
     "reinstall-packages": "npm-run-all uninstall-packages install-packages",
     "uninstall-material-ui": "npm un -S @material-ui/core",
     "install-material-ui": "npm i -S @material-ui/core",
     "reinstall-material-ui": "npm-run-all uninstall-material-ui install-material-ui",
+    "build": "webpack --env production",
     "release": "npm publish",
     "test": "jest --config ../../jest.config.json --no-cache --silent --runInBand",
     "lint": "npm-run-all lint:scss lint:js",
