@@ -1,4 +1,5 @@
 import { storiesOf } from '@storybook/react'
+import { getInfo } from '../../../.storybook/utility'
 
 import {
   containedDefaultMaterialButton,
@@ -9,46 +10,17 @@ import {
   containedUploadMaterialButton,
 } from './MaterialButton.render'
 
-const containedDefaultText = 'Contained Default'
-const containedDefaultParamters = {
-  info: containedDefaultText,
-  notes: `Must render ${containedDefaultText}`,
-}
+const containedDefaultMaterialButtonInfo = getInfo('Contained Default')
+const containedPrimaryMaterialButtonInfo = getInfo('Contained Primary')
+const containedSecondaryMaterialButtonInfo = getInfo('Contained Secondary')
+const containedDisabledMaterialButtonInfo = getInfo('Contained Disabled')
+const containedLinkMaterialButtonInfo = getInfo('Contained Link')
+const containedUploadMaterialButtonInfo = getInfo('Contained Upload')
 
-const containedPrimaryText = 'Contained Primary'
-const containedPrimaryParamters = {
-  info: containedPrimaryText,
-  notes: `Must render ${containedPrimaryText}`,
-}
-
-const containedSecondaryText = 'Contained Secondary'
-const containedSecondaryParamters = {
-  info: containedSecondaryText,
-  notes: `Must render ${containedSecondaryText}`,
-}
-
-const containedDisabledText = 'Contained Disabled'
-const containedDisabledParamters = {
-  info: containedDisabledText,
-  notes: `Must render ${containedDisabledText}`,
-}
-
-const containedLinkText = 'Contained Link'
-const containedLinkParamters = {
-  info: containedLinkText,
-  notes: `Must render ${containedLinkText}`,
-}
-
-const containedUploadText = 'Contained Upload'
-const containedUploadParamters = {
-  info: containedUploadText,
-  notes: `Must render ${containedUploadText}`,
-}
-
-storiesOf('Buttons/MaterialButtons', module)
-  .add(containedDefaultText,() => containedDefaultMaterialButton, containedDefaultParamters)
-  .add(containedPrimaryText,() => containedPrimaryMaterialButton, containedPrimaryParamters)
-  .add(containedSecondaryText,() => containedSecondaryMaterialButton, containedSecondaryParamters)
-  .add(containedDisabledText,() => containedDisabledMaterialButton, containedDisabledParamters)
-  .add(containedLinkText,() => containedLinkMaterialButton, containedLinkParamters)
-  .add(containedUploadText,() => containedUploadMaterialButton, containedUploadParamters)
+storiesOf('Flash alerts/FlashMessages', module)
+  .add(containedDefaultMaterialButtonInfo.text, () => containedDefaultMaterialButton, containedDefaultMaterialButtonInfo.parameters)
+  .add(containedPrimaryMaterialButtonInfo.text, () => containedPrimaryMaterialButton, containedPrimaryMaterialButtonInfo.parameters)
+  .add(containedSecondaryMaterialButtonInfo.text, () => containedSecondaryMaterialButton, containedSecondaryMaterialButtonInfo.parameters)
+  .add(containedDisabledMaterialButtonInfo.text, () => containedDisabledMaterialButton, containedDisabledMaterialButtonInfo.parameters)
+  .add(containedLinkMaterialButtonInfo.text, () => containedLinkMaterialButton, containedLinkMaterialButtonInfo.parameters)
+  .add(containedUploadMaterialButtonInfo.text, () => containedUploadMaterialButton, containedUploadMaterialButtonInfo.parameters)
