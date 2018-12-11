@@ -13,6 +13,10 @@
     <img alt="" src="https://img.shields.io/travis/code-star/phoenix.svg?logo=travis">
   </a>
 
+  <a aria-label="circle build" href="https://circleci.com/gh/code-star/phoenix">
+    <img alt="" src="https://circleci.com/gh/code-star/phoenix.svg?style=svg&logo=circle">
+  </a>
+
   <a aria-label="downloads" href="http://npm-stat.com/charts.html?package=phoenix-buttons&from=2018-10-13">
     <img alt="" src="https://img.shields.io/npm/dm/phoenix-buttons.svg">
   </a>
