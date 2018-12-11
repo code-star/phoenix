@@ -6,7 +6,6 @@
   "main": "build/phoenix-buttons.js",
   "repository": "https://github.com/code-star/phoenix/tree/master/packages/phoenix-buttons",
   "files": [
-    "lib",
     "build",
     "LICENSE",
     "README.md"
