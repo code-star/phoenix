@@ -1,5 +1,5 @@
 {
-  "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?)$",
+  "testRegex": ".test\\.js$",
   "roots": [
     "<rootDir>"
   ],
@@ -7,7 +7,8 @@
     "^.+\\.(js)$": "babel-jest"
   },
   "collectCoverageFrom": [
-    "packages/**/*.test.js",
+    "packages/**/*.js",
+    "!packages/**/*.test.js",
     "!packages/**/*.story.js",
     "!packages/**/*.render.js"
   ],
@@ -15,5 +16,5 @@
   "moduleNameMapper": {
     "\\.(css|less|scss)$": "identity-obj-proxy"
   },
-  "moduleFileExtensions": ["js", "json"]
+  "moduleFileExtensions": ["js"]
 }

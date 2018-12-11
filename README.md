@@ -54,7 +54,7 @@
 
 * **📜 Bundle**: [Webpack](https://webpack.js.org/)
 
-* **📜 Package Manager**: [NPM](https://www.npmjs.com/)
+* **📜 Package Manager**: [NPM](https://www.npmjs.com/) [🐝](https://www.npmjs.com/package/phoenix-buttons)
 
 * **📜 UI Development Environment**: [Storybook](https://storybook.js.org/)
 
@@ -74,14 +74,32 @@
 
 ## 📕 Packages
 
-### 📦 Phoenix Buttons
+### 📦 Phoenix MaterialButtons
 <details>
 <summary>View Content</summary>
 
 * 🎨 MaterialButtons
-  * 🎨 Contained Default MaterialButton
-  * 🎨 Contained Primary MaterialButton
-  * 🎨 Contained Secondary MaterialButton
+  * 🎨 Contained
+    * 🎨 Contained Default
+    * 🎨 Contained Primary
+    * 🎨 Contained Secondary
+    * 🎨 Contained Disabled
+    * 🎨 Contained Links
+    * 🎨 Contained Upload
+  * 🎨 Text
+    * 🎨 Text Default
+    * 🎨 Text Primary
+    * 🎨 Text Secondary
+    * 🎨 Text Disabled
+    * 🎨 Text Links
+    * 🎨 Text Upload
+  * 🎨 Flat
+    * 🎨 Flat Default
+    * 🎨 Flat Primary
+    * 🎨 Flat Secondary
+    * 🎨 Flat Disabled
+    * 🎨 Flat Links
+    * 🎨 Flat Upload
 
 </details>
 
