@@ -74,7 +74,7 @@ exports[`<AppBar /> Snaphot must match simpleAppBar 1`] = `
       <h6
         className="MuiTypography-root-42 MuiTypography-h6-59 MuiTypography-colorInherit-71"
       >
-        Dense App Bar
+        Simple App Bar
       </h6>
     </div>
   </header>
