@@ -1,0 +1,44 @@
+{
+  "name": "phoenix-app-bar",
+  "license": "MIT",
+  "version": "0.0.3",
+  "description": "Phoenix App Bar React UI Components",
+  "main": "build/phoenix-app-bar.js",
+  "repository": "https://github.com/code-star/phoenix/tree/master/packages/phoenix-app-bar",
+  "files": [
+    "build",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "app-bar",
+    "phoenix",
+    "material-ui",
+    "css",
+    "react",
+    "github",
+    "design-system",
+    "component-library"
+  ],
+  "scripts": {
+    "build-for-explorer-watch": "nodemon --watch lib/AppBar/DenseAppBar.js --watch webpack.config.js --watch webpack.parts.js --exec \"webpack --env production\"",
+    "build": "webpack --env production",
+    "release": "npm publish",
+    "uninstall-packages": "rm -rf node_modules package-lock.json",
+    "install-packages": "npm i",
+    "reinstall-packages": "npm-run-all uninstall-packages install-packages",
+    "uninstall-material-ui": "npm un -S @material-ui/core",
+    "install-material-ui": "npm i -S @material-ui/core",
+    "reinstall-material-ui": "npm-run-all uninstall-material-ui install-material-ui",
+    "test": "jest --config jest.config.json --no-cache --silent --runInBand",
+    "lint": "npm-run-all lint:scss lint:js",
+    "lint:scss": "stylelint lib/*.scss --fix",
+    "lint:js": "eslint lib/*.js --fix",
+    "lint:staged": "lint-staged",
+    "ci": "npm-run-all lint build test"
+  },
+  "dependencies": {
+    "@material-ui/core": "3.6.2",
+    "@material-ui/icons": "3.0.1"
+  }
+}
