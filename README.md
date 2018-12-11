@@ -5,36 +5,6 @@
 </h1>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/multiple_packages-lerna-a133fc.svg?style=flat-square" alt="Lerna">
-</p>
-
-<p align="center">
-    <img src="https://img.shields.io/badge/user_interfaces-react-61dafb.svg?style=flat-square" alt="React">
-    <img src="https://img.shields.io/badge/javascript_superset-ecmascript-152740.svg?style=flat-square" alt="ECMAScript">
-    <img src="https://img.shields.io/badge/css_extension-sass-c6538c.svg?style=flat-square" alt="Sass">
-    <img src="https://img.shields.io/badge/css_module-css_modules-aaacae.svg?style=flat-square" alt="CSS Modules">
-</p>
-
-<p align="center">
-    <img src="https://img.shields.io/badge/transpile-babel-eeda7c.svg?style=flat-square" alt="Babel">
-    <img src="https://img.shields.io/badge/bundle-webpack-75aecb.svg?style=flat-square" alt="Webpack">
-</p>
-
-<p align="center">
-    <img src="https://img.shields.io/badge/package_manager-npm-cb3837.svg?style=flat-square" alt="NPM">
-    <img src="https://img.shields.io/badge/ui_development-storybook-f1618c.svg?style=flat-square" alt="Storybook">
-    <img src="https://img.shields.io/badge/cloud_hosting-github_pages-0a4d69.svg?style=flat-square" alt="GitHub Pages">
-    <img src="https://img.shields.io/badge/continuous_integration-circleci-03aa51.svg?style=flat-shield" alt="CircleCI">
-    <img src="https://img.shields.io/badge/continuous_integration-travisci-03aa51.svg?style=flat-shield" alt="TravisCI">
-</p>
-
-<p align="center">
-    <img src="https://img.shields.io/badge/javascript_testing-jest-99424f.svg?style=flat-shield" alt="Jest">
-    <img src="https://img.shields.io/badge/ecmascript_linter-eslint-166b84.svg?style=flat-shield" alt="ESLint">
-    <img src="https://img.shields.io/badge/style_linter-stylelint-5a5a5a.svg?style=flat-square" alt="StyleLint">
-</p>
-
-<p align="center">
   <a aria-label="npm package" href="https://www.npmjs.com/package/phoenix-buttons">
     <img alt="" src="https://img.shields.io/npm/v/phoenix-buttons.svg">
   </a>
@@ -63,6 +33,36 @@
 ## Status
 
 **⚠️ This project is a work in progress and is not ready for production use yet!**
+
+<p align="center">
+    <img src="https://img.shields.io/badge/multiple_packages-lerna-a133fc.svg?style=flat-square" alt="Lerna">
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/user_interfaces-react-61dafb.svg?style=flat-square" alt="React">
+    <img src="https://img.shields.io/badge/javascript_superset-ecmascript-152740.svg?style=flat-square" alt="ECMAScript">
+    <img src="https://img.shields.io/badge/css_extension-sass-c6538c.svg?style=flat-square" alt="Sass">
+    <img src="https://img.shields.io/badge/css_module-css_modules-aaacae.svg?style=flat-square" alt="CSS Modules">
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/transpile-babel-eeda7c.svg?style=flat-square" alt="Babel">
+    <img src="https://img.shields.io/badge/bundle-webpack-75aecb.svg?style=flat-square" alt="Webpack">
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/package_manager-npm-cb3837.svg?style=flat-square" alt="NPM">
+    <img src="https://img.shields.io/badge/ui_development-storybook-f1618c.svg?style=flat-square" alt="Storybook">
+    <img src="https://img.shields.io/badge/cloud_hosting-github_pages-0a4d69.svg?style=flat-square" alt="GitHub Pages">
+    <img src="https://img.shields.io/badge/continuous_integration-circleci-03aa51.svg?style=flat-shield" alt="CircleCI">
+    <img src="https://img.shields.io/badge/continuous_integration-travisci-03aa51.svg?style=flat-shield" alt="TravisCI">
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/javascript_testing-jest-99424f.svg?style=flat-shield" alt="Jest">
+    <img src="https://img.shields.io/badge/ecmascript_linter-eslint-166b84.svg?style=flat-shield" alt="ESLint">
+    <img src="https://img.shields.io/badge/style_linter-stylelint-5a5a5a.svg?style=flat-square" alt="StyleLint">
+</p>
 
 ## 📕 Introduction
 
