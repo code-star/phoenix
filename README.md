@@ -4,10 +4,6 @@
   <p align="center" style="font-size: 0.5em">Delightful User Interfaces</p>
 </h1>
 
-## Status
-
-**⚠️ This project is a work in progress and is not ready for production use yet!**
-
 <p align="center">
   <a aria-label="npm package" href="https://www.npmjs.com/package/phoenix-buttons">
     <img alt="" src="https://img.shields.io/npm/v/phoenix-buttons.svg">
@@ -67,6 +63,10 @@
     <img src="https://img.shields.io/badge/ecmascript_linter-eslint-166b84.svg?style=flat-shield" alt="ESLint">
     <img src="https://img.shields.io/badge/style_linter-stylelint-5a5a5a.svg?style=flat-square" alt="StyleLint">
 </p>
+
+## Status
+
+**⚠️ This project is a work in progress and is not ready for production use yet!**
 
 ## 📕 Introduction
 
