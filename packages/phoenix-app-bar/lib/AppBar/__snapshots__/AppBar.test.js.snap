@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AppBar /> Snaphot must match denseAppBar 1`] = `
+<div
+  className="DenseAppBar-root-77"
+>
+  <header
+    className="MuiPaper-root-11 MuiPaper-elevation4-17 MuiAppBar-root-2 MuiAppBar-positionStatic-6 MuiAppBar-colorPrimary-9"
+  >
+    <div
+      className="MuiToolbar-root-38 MuiToolbar-dense-41 MuiToolbar-gutters-39"
+    >
+      <button
+        aria-label="Menu"
+        className="MuiButtonBase-root-85 MuiIconButton-root-79 MuiIconButton-colorInherit-80 DenseAppBar-menuButton-78"
+        disabled={false}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiIconButton-label-84"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-88"
+            focusable="false"
+            onClick={[Function]}
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </span>
+        <span
+          className="MuiTouchRipple-root-97"
+        />
+      </button>
+      <h6
+        className="MuiTypography-root-42 MuiTypography-h6-59 MuiTypography-colorInherit-71"
+      >
+        Dense App Bar
+      </h6>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`<AppBar /> Snaphot must match simpleAppBar 1`] = `
+<div
+  className="SimpleAppBar-root-1"
+>
+  <header
+    className="MuiPaper-root-11 MuiPaper-elevation4-17 MuiAppBar-root-2 MuiAppBar-positionStatic-6 MuiAppBar-colorDefault-8"
+  >
+    <div
+      className="MuiToolbar-root-38 MuiToolbar-regular-40 MuiToolbar-gutters-39"
+    >
+      <h6
+        className="MuiTypography-root-42 MuiTypography-h6-59 MuiTypography-colorInherit-71"
+      >
+        Dense App Bar
+      </h6>
+    </div>
+  </header>
+</div>
+`;
