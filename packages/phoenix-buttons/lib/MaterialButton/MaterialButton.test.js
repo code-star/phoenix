@@ -14,6 +14,13 @@ import {
   textDisabledMaterialButton,
   textLinkMaterialButton,
   textUploadMaterialButton,
+  // outlined
+  outlinedDefaultMaterialButton,
+  outlinedPrimaryMaterialButton,
+  outlinedSecondaryMaterialButton,
+  outlinedDisabledMaterialButton,
+  outlinedLinkMaterialButton,
+  outlinedUploadMaterialButton,
 } from './MaterialButton.render'
 
 describe('<MaterialButton />', () => {
@@ -67,6 +74,32 @@ describe('<MaterialButton />', () => {
 
       test('must match textUploadMaterialButton', () => {
         expect(renderer.create(textUploadMaterialButton).toJSON()).toMatchSnapshot()
+      })
+    })
+
+    describe('outlined', () => {
+      test('must match outlinedDefaultMaterialButton', () => {
+        expect(renderer.create(outlinedDefaultMaterialButton).toJSON()).toMatchSnapshot()
+      })
+
+      test('must match outlinedPrimaryMaterialButton', () => {
+        expect(renderer.create(outlinedPrimaryMaterialButton).toJSON()).toMatchSnapshot()
+      })
+
+      test('must match outlinedSecondaryMaterialButton', () => {
+        expect(renderer.create(outlinedSecondaryMaterialButton).toJSON()).toMatchSnapshot()
+      })
+
+      test('must match outlinedDisabledMaterialButton', () => {
+        expect(renderer.create(outlinedDisabledMaterialButton).toJSON()).toMatchSnapshot()
+      })
+
+      test('must match outlinedLinkMaterialButton', () => {
+        expect(renderer.create(outlinedLinkMaterialButton).toJSON()).toMatchSnapshot()
+      })
+
+      test('must match outlinedUploadMaterialButton', () => {
+        expect(renderer.create(outlinedUploadMaterialButton).toJSON()).toMatchSnapshot()
       })
     })
   })

@@ -15,3 +15,12 @@ export {
   textLinkMaterialButton,
   textUploadMaterialButton,
 } from './MaterialButton.render.text'
+
+export {
+  outlinedDefaultMaterialButton,
+  outlinedPrimaryMaterialButton,
+  outlinedSecondaryMaterialButton,
+  outlinedDisabledMaterialButton,
+  outlinedLinkMaterialButton,
+  outlinedUploadMaterialButton,
+} from './MaterialButton.render.outlined'
