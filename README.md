@@ -5,6 +5,36 @@
 </h1>
 
 <p align="center">
+  <a aria-label="npm package" href="https://www.npmjs.com/package/phoenix-buttons">
+    <img alt="" src="https://img.shields.io/npm/v/phoenix-buttons.svg">
+  </a>
+
+  <a aria-label="travis build" href="https://travis-ci.org/code-star/phoenix">
+    <img alt="" src="https://img.shields.io/travis/code-star/phoenix.svg?logo=travis">
+  </a>
+
+  <a aria-label="circle build" href="https://circleci.com/gh/code-star/phoenix">
+    <img alt="" src="https://circleci.com/gh/code-star/phoenix.svg?style=svg">
+  </a>
+
+  <a aria-label="downloads" href="http://npm-stat.com/charts.html?package=phoenix-buttons&from=2018-10-13">
+    <img alt="" src="https://img.shields.io/npm/dm/phoenix-buttons.svg">
+  </a>
+
+  <a aria-label="last commit" href="https://github.com/code-star/phoenix/commits/master">
+    <img alt="" src="https://img.shields.io/github/last-commit/code-star/phoenix.svg">
+  </a>
+
+  <a aria-label="contributors graph" href="https://github.com/code-star/phoenix/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/code-star/phoenix.svg">
+  </a>
+
+  <a aria-label="license" href="https://github.com/code-star/phoenix/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/code-star/phoenix.svg" alt="">
+  </a>
+</p>
+
+<p align="center">
     <img src="https://img.shields.io/badge/multiple_packages-lerna-a133fc.svg?style=flat-square" alt="Lerna">
 </p>
 
@@ -33,6 +63,10 @@
     <img src="https://img.shields.io/badge/ecmascript_linter-eslint-166b84.svg?style=flat-shield" alt="ESLint">
     <img src="https://img.shields.io/badge/style_linter-stylelint-5a5a5a.svg?style=flat-square" alt="StyleLint">
 </p>
+
+## Status
+
+**⚠️ This project is a work in progress and is not ready for production use yet!**
 
 ## 📕 Introduction
 
