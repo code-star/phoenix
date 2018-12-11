@@ -1,7 +1,7 @@
 {
   "name": "phoenix-app-bar",
   "license": "MIT",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Phoenix App Bar React UI Components",
   "main": "build/phoenix-app-bar.js",
   "repository": "https://github.com/code-star/phoenix/tree/master/packages/phoenix-app-bar",
