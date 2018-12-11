@@ -39,6 +39,6 @@
     "ci": "npm-run-all lint build test"
   },
   "dependencies": {
-    "@material-ui/core": "3.6.1"
+    "@material-ui/core": "3.6.2"
   }
 }
