@@ -3,18 +3,16 @@ import MaterialButton from './MaterialButton'
 
 const handleOnClick = () => {}
 
-export const containedDefaultMaterialButton = (
+export const textDefaultMaterialButton = (
   <MaterialButton
-    variant="contained"
     onClick={handleOnClick}
   >
     Default
   </MaterialButton>
 )
 
-export const containedPrimaryMaterialButton = (
+export const textPrimaryMaterialButton = (
   <MaterialButton
-    variant="contained"
     color="primary"
     onClick={handleOnClick}
   >
@@ -22,9 +20,8 @@ export const containedPrimaryMaterialButton = (
   </MaterialButton>
 )
 
-export const containedSecondaryMaterialButton = (
+export const textSecondaryMaterialButton = (
   <MaterialButton
-    variant="contained"
     color="secondary"
     onClick={handleOnClick}
   >
@@ -32,9 +29,8 @@ export const containedSecondaryMaterialButton = (
   </MaterialButton>
 )
 
-export const containedDisabledMaterialButton = (
+export const textDisabledMaterialButton = (
   <MaterialButton
-    variant="contained"
     onClick={handleOnClick}
     disabled
   >
@@ -42,9 +38,8 @@ export const containedDisabledMaterialButton = (
   </MaterialButton>
 )
 
-export const containedLinkMaterialButton = (
+export const textLinkMaterialButton = (
   <MaterialButton
-    variant="contained"
     href="https://github.com/code-star/phoenix"
     onClick={handleOnClick}
   >
@@ -52,10 +47,10 @@ export const containedLinkMaterialButton = (
   </MaterialButton>
 )
 
-export const containedUploadMaterialButton = (
+export const textUploadMaterialButton = (
   <MaterialButton
-    variant="contained"
     upload
+    id="flat-button-file"
     onClick={handleOnClick}
   >
     Upload

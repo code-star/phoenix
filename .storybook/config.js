@@ -1,5 +1,4 @@
 import { addDecorator, configure } from '@storybook/react';
-
 import { withInfo } from '@storybook/addon-info'
 import { withNotes } from '@storybook/addon-notes'
 import { withOptions } from '@storybook/addon-options';
