@@ -1,0 +1,1 @@
+{"version":3,"file":"static/iframe.a3dcbe3f10307aebc971.bundle.js","sources":["webpack:///./.storybook/utility.js"],"sourcesContent":["export const getInfo = (text) => {\n  return {\n    text,\n    parameters: {\n      info: text,\n      notes: `Must render ${text}`,\n    }\n  }\n}\n"],"mappings":"AAAA","sourceRoot":""}
