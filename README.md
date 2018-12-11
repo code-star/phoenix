@@ -24,8 +24,8 @@
     <img src="https://img.shields.io/badge/package_manager-npm-cb3837.svg?style=flat-square" alt="NPM">
     <img src="https://img.shields.io/badge/ui_development-storybook-f1618c.svg?style=flat-square" alt="Storybook">
     <img src="https://img.shields.io/badge/cloud_hosting-github_pages-0a4d69.svg?style=flat-square" alt="GitHub Pages">
-    <img src="https://img.shields.io/badge/continuous_integration-circleci-03aa51.svg?style=flat-shield" alt="CircleCI">
-    <img src="https://img.shields.io/badge/continuous_integration-travisci-03aa51.svg?style=flat-shield" alt="TravisCI">
+    <img src="https://img.shields.io/badge/continuous_integration-circleci-03aa51.svg?style=flat-shield&logo=circle" alt="CircleCI">
+    <img src="https://img.shields.io/badge/continuous_integration-travisci-03aa51.svg?style=flat-shield&logo=travis" alt="TravisCI">
 </p>
 
 <p align="center">
@@ -74,14 +74,32 @@
 
 ## 📕 Packages
 
-### 📦 Phoenix Buttons
+### 📦 Phoenix MaterialButtons
 <details>
 <summary>View Content</summary>
 
 * 🎨 MaterialButtons
-  * 🎨 Contained Default MaterialButton
-  * 🎨 Contained Primary MaterialButton
-  * 🎨 Contained Secondary MaterialButton
+  * 🎨 Contained
+    * 🎨 Contained Default
+    * 🎨 Contained Primary
+    * 🎨 Contained Secondary
+    * 🎨 Contained Disabled
+    * 🎨 Contained Links
+    * 🎨 Contained Upload
+  * 🎨 Text
+    * 🎨 Text Default
+    * 🎨 Text Primary
+    * 🎨 Text Secondary
+    * 🎨 Text Disabled
+    * 🎨 Text Links
+    * 🎨 Text Upload
+  * 🎨 Flat
+    * 🎨 Flat Default
+    * 🎨 Flat Primary
+    * 🎨 Flat Secondary
+    * 🎨 Flat Disabled
+    * 🎨 Flat Links
+    * 🎨 Flat Upload
 
 </details>
 

@@ -1,7 +1,7 @@
 # Phoenix Buttons
 
-[![CircleCI](https://circleci.com/gh/code-star/phoenix.svg?style=svg)](https://circleci.com/gh/code-star/phoenix)
-[![TravisCI](https://travis-ci.org/code-star/phoenix.svg?style=svg)](https://travis-ci.org/code-star/phoenix)
+[![CircleCI](https://circleci.com/gh/code-star/phoenix.svg?style=svg&?logo=circle)](https://circleci.com/gh/code-star/phoenix)
+[![TravisCI](https://travis-ci.org/code-star/phoenix.svg?style=svg&?logo=travis)](https://travis-ci.org/code-star/phoenix)
 [![version](https://img.shields.io/npm/v/phoenix-buttons.svg?style=flat-square)](http://npm.im/phoenix-buttons)
 [![downloads](https://img.shields.io/npm/dm/phoenix-buttons.svg?style=flat-square)](http://npm-stat.com/charts.html?package=phoenix-buttons&from=2018-10-13)
 [![MIT License](https://img.shields.io/npm/l/phoenix-buttons.svg?style=flat-square)](http://opensource.org/licenses/MIT)
@@ -34,15 +34,15 @@ You can import it like this.
 import { MaterialButton } from 'phoenix-buttons'
 ```
 
-## Documentation
+## MaterialButtons
 
-Buttons allow users to take actions, and make choices, with a single tap.
+> MaterialButtons allow users to take actions, and make choices, with a single tap.
 
-### Phoenix MaterialButtons
+## ContainedMaterialButtons
 
-Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.
+ContainedMaterialButtons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.
 
-#### Contained Default MaterialButton
+### Contained Default MaterialButton
 ```html
   <MaterialButton
     variant="contained"
@@ -52,7 +52,7 @@ Contained buttons are high-emphasis, distinguished by their use of elevation and
   </MaterialButton>
 ```
 
-#### Contained Primary MaterialButton
+### Contained Primary MaterialButton
 ```html
   <MaterialButton
     variant="contained"
@@ -63,7 +63,7 @@ Contained buttons are high-emphasis, distinguished by their use of elevation and
   </MaterialButton>
 ```
 
-#### Contained Secondary MaterialButton
+### Contained Secondary MaterialButton
 ```html
   <MaterialButton
     variant="contained"
@@ -74,7 +74,7 @@ Contained buttons are high-emphasis, distinguished by their use of elevation and
   </MaterialButton>
 ```
 
-#### Contained Disabled MaterialButton
+### Contained Disabled MaterialButton
 ```html
   <MaterialButton
     variant="contained"
@@ -85,7 +85,7 @@ Contained buttons are high-emphasis, distinguished by their use of elevation and
   </MaterialButton>
 ```
 
-#### Contained Link MaterialButton
+### Contained Link MaterialButton
 ```html
   <MaterialButton
     variant="contained"
@@ -96,11 +96,151 @@ Contained buttons are high-emphasis, distinguished by their use of elevation and
   </MaterialButton>
 ```
 
-#### Contained Upload MaterialButton
+### Contained Upload MaterialButton
 ```html
   <MaterialButton
     variant="contained"
+    id="contained-button-file"
     upload
+    onClick={handleOnClick}
+  >
+    Upload
+  </MaterialButton>
+```
+
+## TextMaterialButtons
+
+TextMaterialButtons are typically used for less-pronounced actions, including those located:
+
+- In dialogs
+- In cards
+
+In cards, text buttons help maintain an emphasis on card content.
+
+### Text Default MaterialButton
+```html
+  <MaterialButton
+    onClick={handleOnClick}
+  >
+    Default
+  </MaterialButton>
+```
+
+### Text Primary MaterialButton
+```html
+  <MaterialButton
+    color="primary"
+    onClick={handleOnClick}
+  >
+    Primary
+  </MaterialButton>
+```
+
+### Text Secondary MaterialButton
+```html
+  <MaterialButton
+    color="secondary"
+    onClick={handleOnClick}
+  >
+    Secondary
+  </MaterialButton>
+```
+
+### Text Disabled MaterialButton
+```html
+  <MaterialButton
+    onClick={handleOnClick}
+    disabled
+  >
+    Disabled
+  </MaterialButton>
+```
+
+### Text Link MaterialButton
+```html
+  <MaterialButton
+    href="https://github.com/code-star/phoenix"
+    onClick={handleOnClick}
+  >
+    Link
+  </MaterialButton>
+```
+
+### Text Upload MaterialButtons
+```html
+  <MaterialButton
+    upload
+    id="flat-button-file"
+    onClick={handleOnClick}
+  >
+    Upload
+  </MaterialButton>
+```
+
+## OutlinedMaterialButtons
+
+OutlinedMaterialButtons are medium-emphasis buttons. They contain actions that are important, but aren’t the primary action in an app.
+
+### Outlined Default MaterialButton
+```html
+  <MaterialButton
+    variant="outlined"
+    onClick={handleOnClick}
+  >
+    Default
+  </MaterialButton>
+```
+
+### Outlined Primary MaterialButton
+```html
+  <MaterialButton
+    variant="outlined"
+    color="primary"
+    onClick={handleOnClick}
+  >
+    Primary
+  </MaterialButton>
+```
+
+### Outlined Secondary MaterialButton
+```html
+  <MaterialButton
+    variant="outlined"
+    color="secondary"
+    onClick={handleOnClick}
+  >
+    Secondary
+  </MaterialButton>
+```
+
+### Outlined Disabled MaterialButton
+```html
+  <MaterialButton
+    variant="outlined"
+    onClick={handleOnClick}
+    disabled
+  >
+    Disabled
+  </MaterialButton>
+```
+
+### Outlined Link MaterialButton
+```html
+  <MaterialButton
+    variant="outlined"
+    href="https://github.com/code-star/phoenix"
+    onClick={handleOnClick}
+  >
+    Link
+  </MaterialButton>
+```
+
+### Outlined Upload MaterialButtons
+```html
+  <MaterialButton
+    variant="outlined"
+    upload
+    id="outlined-button-file"
     onClick={handleOnClick}
   >
     Upload
