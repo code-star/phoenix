@@ -16,7 +16,7 @@ const styles = theme => ({
   },
 })
 
-const MaterialButton = ({ variant, color, disabled, href, upload, classes, children, onClick }) => {
+const MaterialButton = ({ variant, color, disabled, href, upload, id, classes, children, onClick }) => {
   if (!upload) {
     return (
       <Button
@@ -37,11 +37,11 @@ const MaterialButton = ({ variant, color, disabled, href, upload, classes, child
       <input
         accept="image/*"
         className={classes.input}
-        id="contained-button-file"
+        id={id}
         multiple
         type="file"
       />
-      <label htmlFor="contained-button-file">
+      <label htmlFor={id}>
         <Button variant={variant} component="span" className={classes.button}>
           Upload
         </Button>
@@ -56,6 +56,7 @@ MaterialButton.defaultProps = {
   disabled: false,
   href: '',
   upload: false,
+  id: '',
   children: null,
 }
 
@@ -65,6 +66,7 @@ MaterialButton.propTypes = {
   disabled: bool,
   href: string,
   upload: bool,
+  id: string,
   classes: object.isRequired,
   children: node,
   onClick: func.isRequired,
