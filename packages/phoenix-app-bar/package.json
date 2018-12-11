@@ -1,17 +1,17 @@
 {
-  "name": "phoenix-buttons",
+  "name": "phoenix-app-bar",
   "license": "MIT",
   "version": "0.0.3",
-  "description": "Phoenix Buttons React UI Components",
-  "main": "build/phoenix-buttons.js",
-  "repository": "https://github.com/code-star/phoenix/tree/master/packages/phoenix-buttons",
+  "description": "Phoenix App Bar React UI Components",
+  "main": "build/phoenix-app-bar.js",
+  "repository": "https://github.com/code-star/phoenix/tree/master/packages/phoenix-app-bar",
   "files": [
     "build",
     "LICENSE",
     "README.md"
   ],
   "keywords": [
-    "buttons",
+    "app-bar",
     "phoenix",
     "material-ui",
     "css",
@@ -21,7 +21,7 @@
     "component-library"
   ],
   "scripts": {
-    "build-for-explorer-watch": "nodemon --watch lib/MaterialButton/MaterialButton.js --watch webpack.config.js --watch webpack.parts.js --exec \"webpack --env production\"",
+    "build-for-explorer-watch": "nodemon --watch lib/AppBar/DenseAppBar.js --watch webpack.config.js --watch webpack.parts.js --exec \"webpack --env production\"",
     "build": "webpack --env production",
     "release": "npm publish",
     "uninstall-packages": "rm -rf node_modules package-lock.json",
@@ -38,6 +38,7 @@
     "ci": "npm-run-all lint build test"
   },
   "dependencies": {
-    "@material-ui/core": "3.6.2"
+    "@material-ui/core": "3.6.2",
+    "@material-ui/icons": "3.0.1"
   }
 }
