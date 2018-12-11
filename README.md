@@ -4,6 +4,10 @@
   <p align="center" style="font-size: 0.5em">Delightful User Interfaces</p>
 </h1>
 
+## Status
+
+**⚠️ This project is a work in progress and is not ready for production use yet!**
+
 <p align="center">
   <a aria-label="npm package" href="https://www.npmjs.com/package/phoenix-buttons">
     <img alt="" src="https://img.shields.io/npm/v/phoenix-buttons.svg">
@@ -14,7 +18,7 @@
   </a>
 
   <a aria-label="circle build" href="https://circleci.com/gh/code-star/phoenix">
-    <img alt="" src="https://circleci.com/gh/code-star/phoenix.svg?style=svg&logo=circle">
+    <img alt="" src="https://circleci.com/gh/code-star/phoenix.svg?style=svg">
   </a>
 
   <a aria-label="downloads" href="http://npm-stat.com/charts.html?package=phoenix-buttons&from=2018-10-13">
@@ -33,10 +37,6 @@
     <img src="https://img.shields.io/github/license/code-star/phoenix.svg" alt="">
   </a>
 </p>
-
-## Status
-
-**⚠️ This project is a work in progress and is not ready for production use yet!**
 
 <p align="center">
     <img src="https://img.shields.io/badge/multiple_packages-lerna-a133fc.svg?style=flat-square" alt="Lerna">
