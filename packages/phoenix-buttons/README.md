@@ -1,7 +1,7 @@
 # Phoenix Buttons
 
-[![CircleCI](https://circleci.com/gh/code-star/phoenix.svg?style=svg&?logo=circle)](https://circleci.com/gh/code-star/phoenix)
-[![TravisCI](https://travis-ci.org/code-star/phoenix.svg?style=svg&?logo=travis)](https://travis-ci.org/code-star/phoenix)
+[![CircleCI](https://circleci.com/gh/code-star/phoenix.svg?style=svg&logo=circle)](https://circleci.com/gh/code-star/phoenix)
+[![TravisCI](https://travis-ci.org/code-star/phoenix.svg?style=svg&logo=travis)](https://travis-ci.org/code-star/phoenix)
 [![version](https://img.shields.io/npm/v/phoenix-buttons.svg?style=flat-square)](http://npm.im/phoenix-buttons)
 [![downloads](https://img.shields.io/npm/dm/phoenix-buttons.svg?style=flat-square)](http://npm-stat.com/charts.html?package=phoenix-buttons&from=2018-10-13)
 [![MIT License](https://img.shields.io/npm/l/phoenix-buttons.svg?style=flat-square)](http://opensource.org/licenses/MIT)
