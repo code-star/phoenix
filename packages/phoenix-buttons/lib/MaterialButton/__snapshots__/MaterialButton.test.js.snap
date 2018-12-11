@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<MaterialButton /> Snaphot must match containedDefaultMaterialButton 1`] = `
+exports[`<MaterialButton /> Snaphot contained must match containedDefaultMaterialButton 1`] = `
 <button
   className="MuiButtonBase-root-29 MuiButton-root-3 MuiButton-contained-14 MuiButton-raised-17 MuiButton-colorInherit-24 MaterialButton-button-1"
   disabled={false}
@@ -30,7 +30,7 @@ exports[`<MaterialButton /> Snaphot must match containedDefaultMaterialButton 1`
 </button>
 `;
 
-exports[`<MaterialButton /> Snaphot must match containedDisabledMaterialButton 1`] = `
+exports[`<MaterialButton /> Snaphot contained must match containedDisabledMaterialButton 1`] = `
 <button
   className="MuiButtonBase-root-29 MuiButtonBase-disabled-30 MuiButton-root-3 MuiButton-contained-14 MuiButton-raised-17 MuiButton-disabled-23 MuiButton-colorInherit-24 MaterialButton-button-1"
   disabled={true}
@@ -57,7 +57,7 @@ exports[`<MaterialButton /> Snaphot must match containedDisabledMaterialButton 1
 </button>
 `;
 
-exports[`<MaterialButton /> Snaphot must match containedLinkMaterialButton 1`] = `
+exports[`<MaterialButton /> Snaphot contained must match containedLinkMaterialButton 1`] = `
 <a
   className="MuiButtonBase-root-29 MuiButton-root-3 MuiButton-contained-14 MuiButton-raised-17 MuiButton-colorInherit-24 MaterialButton-button-1"
   href="https://github.com/code-star/phoenix"
@@ -86,7 +86,7 @@ exports[`<MaterialButton /> Snaphot must match containedLinkMaterialButton 1`] =
 </a>
 `;
 
-exports[`<MaterialButton /> Snaphot must match containedPrimaryMaterialButton 1`] = `
+exports[`<MaterialButton /> Snaphot contained must match containedPrimaryMaterialButton 1`] = `
 <button
   className="MuiButtonBase-root-29 MuiButton-root-3 MuiButton-contained-14 MuiButton-containedPrimary-15 MuiButton-raised-17 MuiButton-raisedPrimary-18 MaterialButton-button-1"
   disabled={false}
@@ -116,7 +116,7 @@ exports[`<MaterialButton /> Snaphot must match containedPrimaryMaterialButton 1`
 </button>
 `;
 
-exports[`<MaterialButton /> Snaphot must match containedSecondaryMaterialButton 1`] = `
+exports[`<MaterialButton /> Snaphot contained must match containedSecondaryMaterialButton 1`] = `
 <button
   className="MuiButtonBase-root-29 MuiButton-root-3 MuiButton-contained-14 MuiButton-containedSecondary-16 MuiButton-raised-17 MuiButton-raisedSecondary-19 MaterialButton-button-1"
   disabled={false}
@@ -146,7 +146,7 @@ exports[`<MaterialButton /> Snaphot must match containedSecondaryMaterialButton 
 </button>
 `;
 
-exports[`<MaterialButton /> Snaphot must match containedUploadMaterialButton 1`] = `
+exports[`<MaterialButton /> Snaphot contained must match containedUploadMaterialButton 1`] = `
 Array [
   <input
     accept="image/*"
